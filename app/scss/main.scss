@@ -19,3 +19,72 @@ body {
   color: $base-font-color;
   font-family: $base-font-family;
 }
+
+li {
+list-style-type: none;
+}
+
+.ingredients {
+  display: block;
+  width: 500px;
+  height: 400px;
+  border: 1px solid gray;
+}
+
+h5 {
+
+display: inline-block;
+}
+
+.qty {
+  position: relative;
+  left: 5px;
+}
+
+.unit{
+  position: relative;
+  left: 10px;
+}
+
+.name {
+  position: relative;
+  left: 15px;
+}
+
+h4 {
+display: inline-block;
+
+}
+
+.howmuch {
+  display: inline-block;
+  width: 30px;
+  position: relative;
+  left: 5px;
+}
+
+fieldset {
+  margin-left: -40px;
+}
+
+.servings {
+  display: inline-block;
+  position: relative;
+  left: 10px;
+}
+
+.US {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.metric {
+display: inline-block;
+margin-left: 10px;
+}
+
+.Adjust {
+  position: relative;
+  left: 30px;
+  display: inline-block;
+}
